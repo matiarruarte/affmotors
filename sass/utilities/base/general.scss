@@ -3,4 +3,7 @@ body{
     font-family: 'Arimo', sans-serif;
     background-color: white;
     overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
