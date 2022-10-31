@@ -1,0 +1,139 @@
+/* estilos de html vehiculos */
+.vehiculos{
+    @include flex-justify-center;
+    align-items: center;
+    flex-direction: column;
+    margin: 2rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+    padding-bottom: 0;
+    padding-top: 3rem;
+    background-color: $color-bglight;
+    height: auto;
+    border: 1px;
+    border-radius: 5px;
+    .ventas{
+        max-width: 1320px;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        .ventas-nuevos{
+            background-color: $color-bggris;
+            border: 1px;
+            border-radius: 5px;
+            h2{
+                font-size: 2.5rem;
+                padding: 1rem;
+                padding-left: 2rem;
+                margin: 0;
+            }
+            .list-1{
+                padding-bottom: 0;
+                margin-bottom: 0!important;
+                padding-top: 3rem !important;
+            }
+            .lista-ventas{
+                background-color: white;
+                border: 0px;
+                border-radius: 0px;
+                padding: 0rem;
+                margin-bottom: 3rem;
+                .tittlediv{
+                    padding-left: 2rem;
+                    margin-bottom: 1rem;
+                }
+                .col{
+                    padding: .5rem;
+                    .card{
+                        border: 0;
+                        .newnew{
+                            background-color: #e90000;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            color: white;
+                            padding: .5rem .8rem;
+                            font-size: 1rem;
+                            position: absolute;
+                            top: .5rem;
+                            margin-left: 1rem;
+                        }
+                        .offoff{
+                            background-color: $color-bgdark;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            color: white;
+                            padding: .5rem .8rem;
+                            font-size: 1rem;
+                            position: absolute;
+                            top: .5rem;
+                            margin-left: 1rem;
+                        }
+                        .starstar{
+                            background-color: $color-bggris;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            color: black;
+                            padding: .5rem .8rem;
+                            font-size: 1rem;
+                            position: absolute;
+                            top: .5rem;
+                            margin-left: 1rem;
+                        }
+                        .card-img-top{
+                            border-radius: 0;
+                            padding-left: 2rem;
+                            padding-right: 2rem;
+                        }
+                        .card-body{
+                            background-color: $color-bggris;
+                            p span{
+                                font-weight: bold;
+                                color: rgb(61, 61, 61);
+                            }
+                        }
+                        div h3{
+                            margin-top: 1rem;
+                            margin-bottom: 1rem;
+                        }
+                    }
+                }
+            }
+            .lista-ventas:last-of-type{
+                margin: 0;
+            }
+            // #last-primer-lista{
+            //     margin-bottom: 3rem;
+            // }
+        }
+    }
+}
+.veh-dos{
+    margin-top: 0;
+    padding-top: 0;
+}
+.arrowheight{
+    .arrowup{
+        position: sticky;
+        margin-right: 1.5rem;
+        display: flex;
+        justify-content: flex-end;
+        top: 90vh;
+        z-index: 9;
+        a{
+            background-color: $color-bgdark;
+            border-radius: 100%;
+            height: 3rem;
+            width: 3rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        a:hover{
+            transform: scale(1.1);
+        }
+    }
+}
